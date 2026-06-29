@@ -1,0 +1,278 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+  
+  text-decoration: none;
+  color: white;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+     position: fixed;
+   
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.554);
+
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-links , .nav-links-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu-button{
+    background-color: white;
+    color: black;
+    display: none;
+}
+@media (max-width:1200px) {
+    .menu-button{
+        display: block;
+    }
+     .menu-button-2{
+        display: block !important;
+
+    }
+    .nav-links , .nav-links-2{
+        display: none;
+    }
+}
+@media (max-width:420px) {
+    .logo img{
+        max-width: 150px;
+    }
+}
+.nav-menu{
+    display: block !important;
+  background-image: url(./hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-button-2{
+    background-color: white;
+    color: black;
+    display: none; 
+}
+#hero{
+    background-image: url(./hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero h1{
+color: white;
+padding-top: 298px;
+
+
+}
+#hero p{
+    color: white;
+    padding-top: 22px;
+    padding-bottom: 58px;
+}
+#hero button{
+    padding: 19px 21px;
+    background-color:#0E9E2F ;
+    font-size: 14px;
+    color: white;
+}
+#product-cards{
+    background-color: #686868;
+}
+#product-cards h1{
+color: white;
+padding-top: 99px;
+padding-bottom: 24px;
+}
+#product-cards p{
+color: white;
+padding-bottom: 48px;
+
+}
+.product-card{
+    background-color: #535353;
+    max-width: 360px;
+    width: 100%;
+    /* text-align: center; */
+    padding: 28px;
+}
+.product-card img{
+    max-width: 274px;
+    width: 100%;
+}
+.product-card h2{
+    font-size: 24px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    color: white;
+}
+.product-card p{
+    font-size: 16px !important;
+    padding-bottom: 13px !important;
+    color: #D2D2D2 !important;
+}
+.product-card button{
+    padding: 14px 29px;
+    background-color: #0E9E2F;
+    font-size: 14px;
+    color: white;
+
+}
+.product-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+@media (max-width:960px) {
+    .product-cards{
+            grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width:665px) {
+    .product-cards{
+            grid-template-columns: repeat(1, 1fr);
+            margin: 0 auto !important;
+
+    }
+}
+.osnovnoy-hero img{
+    max-width: 760px;
+    width: 100%;
+}
+.osnovnoy-hero{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 100px;
+}
+.osnovnoy-title h2{
+    color: #0E9E2F;
+    padding-bottom: 45px;
+}
+.osnovnoy-title{
+    margin-top: 50px;
+}
+.osnovnoy-images img{
+    max-width: 361px;
+        width: 100%;
+}
+.osnovnoy-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 30px;
+}
+@media (max-width:1180px) {
+    .osnovnoy-hero{
+        display: block;
+    }
+    .osnovnoy-hero .osnovnoy-title{
+        margin-bottom: 50px;
+    }
+    .osnovnoy-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+}
+.salom-dunyo{
+    max-width: 500px !important;
+    width: 100% !important;
+}
+#sertifikat{
+    background-image: url(./sertifikat-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    margin-top: 50px;
+    
+}
+.pp{
+    color: white;
+}
+#map img{
+    margin-top: 100px;
+    width: 100%;
+}
+.batafsil_button{
+    padding: 14px 29px;
+    background-color: #0E9E2F;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 68px;
+}
+#batafsil{
+    text-align: center;
+    color: white;
+    background-image: url(./batafsil-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 97px;
+    
+}
+#batafsil h1{
+  padding-top: 89px;
+  padding-bottom: 15px;
+}
+#batafsil p{
+    padding-bottom: 42px;
+}
+.vakansiy-card h2{
+    font-size: 24px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #494B44;
+    margin-bottom: 18px;
+    
+}
+.vakansiy-card h3{
+    color: #0E9E2F;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.vakansiy-card{
+    max-width: 360px;
+    width: 100%;
+    background-color: #F6F6F7;
+    padding: 30px;
+    margin-top: 50px;
+}
+.vakansiy-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+@media (max-width:1125px) {
+    .vakansiy-cards{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width:808px) {
+    .vakansiy-cards{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        
+    }
+}
+
+
+
